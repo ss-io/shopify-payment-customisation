@@ -3,7 +3,7 @@
 client_id = "5a88ddf645d74d6c622bd31f0d80f5dd"
 name = "Payment-Customisation"
 handle = "payment-customisation-12"
-application_url = "https://laos-watch-arch-julia.trycloudflare.com"
+application_url = "https://nd-shops-penny-baseline.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://laos-watch-arch-julia.trycloudflare.com/auth/callback",
-  "https://laos-watch-arch-julia.trycloudflare.com/auth/shopify/callback",
-  "https://laos-watch-arch-julia.trycloudflare.com/api/auth/callback"
+  "https://nd-shops-penny-baseline.trycloudflare.com/auth/callback",
+  "https://nd-shops-penny-baseline.trycloudflare.com/auth/shopify/callback",
+  "https://nd-shops-penny-baseline.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

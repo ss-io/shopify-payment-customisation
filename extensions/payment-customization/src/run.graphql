@@ -1,0 +1,19 @@
+query RunInput {
+  cart {
+    lines {
+      merchandise {
+        ... on ProductVariant {
+          product {
+            title
+            # for product that has tag NoAfterpay will hide aftepay option in checkout
+            hasAnyTag(tags: ["NoAfterpay"])
+          }
+        }
+      }
+    }
+  }
+  paymentMethods {
+    id
+    name
+  }
+}
