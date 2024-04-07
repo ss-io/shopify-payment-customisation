@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "5a88ddf645d74d6c622bd31f0d80f5dd"
+name = "Payment-Customisation"
+handle = "payment-customisation-12"
+application_url = "https://laos-watch-arch-julia.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "wad-quiz.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://laos-watch-arch-julia.trycloudflare.com/auth/callback",
+  "https://laos-watch-arch-julia.trycloudflare.com/auth/shopify/callback",
+  "https://laos-watch-arch-julia.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
